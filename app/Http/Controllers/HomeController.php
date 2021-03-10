@@ -22,11 +22,7 @@ class HomeController extends Controller
         return redirect()->back();
     }
 
-    public function refreshDB()
-    {
-        HelpersService::refreshDataBase();
-        return redirect()->back();
-    }
+
 
 
 
