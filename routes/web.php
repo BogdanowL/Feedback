@@ -23,5 +23,5 @@ Route::post('/store', 'FeedbackController@store')->name('store');
 Route::group(['middleware' => 'auth'], function (){
     Route::get('/home', 'HomeController@index')->name('home');
     Route::post('/factory', 'HomeController@makeFactory')->name('factory');
-    Route::get('/refresh', 'HomeController@refreshDB')->name('refresh');
+ 
 });
