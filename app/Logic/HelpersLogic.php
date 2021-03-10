@@ -15,9 +15,6 @@ class HelpersLogic
         factory(Feedback::class, $quantity)->create();
     }
 
-    public function refreshDataBase():void
-    {
-        Artisan::call('migrate:refresh');
-    }
+
 
 }
