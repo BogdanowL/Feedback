@@ -13,7 +13,7 @@ class FeedbackServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('feedBackService', 'App\Logic\FeedBackLogic');
+        $this->app->bind('feedBackService', 'App\Logic\FeedbackLogic');
     }
 
     /**
